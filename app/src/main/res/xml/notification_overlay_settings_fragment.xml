@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2020 The exTHmUI Open Source Project
-     Copyright (C) 2021 AOSP-Krypton Project
+     Copyright (C) 2022 FlamingoOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@
         android:summary="@string/gaming_mode_dynamic_notification_filter_summary"
         android:defaultValue="true" />
 
-    <com.krypton.settings.preference.CustomSeekBarPreference
+    <com.flamingo.support.preference.CustomSeekBarPreference
         android:key="gaming_mode_notification_size_landscape"
         android:title="@string/gaming_mode_notification_overlay_size_landscape_title"
         android:defaultValue="90"
@@ -39,7 +39,7 @@
         app:units="px"
         app:interval="5" />
 
-    <com.krypton.settings.preference.CustomSeekBarPreference
+    <com.flamingo.support.preference.CustomSeekBarPreference
         android:key="gaming_mode_notification_size_portrait"
         android:title="@string/gaming_mode_notification_overlay_size_portrait_title"
         android:defaultValue="60"

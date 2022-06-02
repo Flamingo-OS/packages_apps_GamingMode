@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 AOSP-Krypton Project
+ * Copyright (C) 2022 FlamingoOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ package org.exthmui.game.fragment
 
 import android.provider.Settings
 import androidx.preference.PreferenceDataStore
-import com.krypton.settings.preference.SystemSettingsStore
+import com.flamingo.support.preference.SystemSettingsStore
 
 import org.exthmui.game.R
 
